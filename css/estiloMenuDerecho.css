@@ -1,0 +1,204 @@
+#wrapperMenuDerecho{  
+    width: 100%;
+    float:left;
+}
+
+#wrapperMenuDerecho .divIconosGenerales:nth-child(2){
+	border-radius: 1em 0em 0em 0em;
+}
+
+#wrapperMenuDerecho .divIconosGenerales:last-child{
+	border-radius: 0em 0em 0em 1em;
+}
+
+.divIconosGenerales{
+	width: 48%;
+	height: 100px;
+	float:right;
+	background: #bccddc;
+	border: 1px solid white;
+}
+
+.cAMenuD{
+	width: 100%;
+	height: 100%;
+	float: left;
+
+	text-shadow:-4px -4px 0px rgba(255,255,255,.2),
+				 4px -4px 0px rgba(255,255,255,.2),
+				-4px 4px 0px rgba(255,255,255,.2),
+				 4px 4px 0px rgba(255,255,255,.2);
+
+	transition: all 500ms ease;
+}
+
+.cAMenuD:hover{
+	color: #000;
+	text-shadow:-1px -1px 0px rgba(255,255,255,1),
+				 1px -1px 0px rgba(255,255,255,1),
+				-1px 1px 0px rgba(255,255,255,1),
+				 1px 1px 0px rgba(255,255,255,1);
+}
+
+.imagenMenuDer{
+	width: 50px;
+	padding: 10%;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+.idSpanMenuDer{
+	font-size: 7pt;
+	margin: 0em auto;
+	text-align: center;
+}
+
+/*#################################*/
+/*######## BY RAWIL
+/*#################################*/
+
+.menu_{
+    top: -2.5em;
+    position: relative;
+    width: 100%;
+    left: 0%;
+}
+
+.menu_ .icon-side-bar{
+    float: right;
+    padding-top: 0.2em; 
+    padding-bottom: 0.5em;
+}
+
+.menu_ .icon-side-bar .icon-p{ 
+    margin-right: 0.5em;
+    width: 2em;
+    height: 2em;
+    background: rgba(255,255,255,.3);
+    border: thin rgba(255,255,255,0) solid;
+    border-radius: 10%;
+
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+}
+
+.menu_ .icon-side-bar:hover .icon-p{
+    background: rgba(0,0,0,.3);
+    border: thin rgba(255,255,255,1) solid;
+}
+
+.menu_:hover .menu_opciones, .menu_:hover .menu_element,
+.menu_ .icon-side-bar:hover .menu_opciones,
+.menu_ .icon-side-bar:hover .menu_element,
+.menu_ .icon-side-bar:hover .menu_element a span{
+    visibility: visible;
+    opacity: 1;
+    width: 6em;
+
+    display: block;
+}
+
+.menu_ .icon-side-bar:hover .menu_element{
+    height: 6.5em;
+}
+
+.menu_ .icon-side-bar:hover .menu_element img{
+    margin-left: 2.2em;
+}
+
+.menu_opciones{
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    width: 3em;
+    padding: 0em 0.3em 0em 0.3em;
+    right: 0%;
+
+    background: rgba(51,121,183,0.27);
+    background: -moz-linear-gradient(left, rgba(51,121,183,0.15) 10%, rgba(51,121,183,0.5) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(51,121,183,0.27)), color-stop(100%, rgba(51,121,183,0.8)));
+    background: -webkit-linear-gradient(left, rgba(51,121,183,0.15) 10%, rgba(51,121,183,0.5) 100%);
+    background: -o-linear-gradient(left, rgba(51,121,183,0.15) 10%, rgba(51,121,183,0.5) 100%);
+    background: -ms-linear-gradient(left, rgba(51,121,183,0.15) 10%, rgba(51,121,183,0.5) 100%);
+    background: linear-gradient(to right, rgba(51,121,183,0.15) 10%, rgba(51,121,183,0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3379b7', endColorstr='#3379b7', GradientType=1 );
+
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+}
+
+.menu_element:nth-child(1){
+    margin-top: 0.5em;
+}
+
+.menu_element{
+    padding: 0em;
+    margin-top: 0em;
+    margin-right: 0.4em;
+    margin-bottom: 0.3em;
+    width: 3em;
+    height: 3.5em;
+    text-align: center;
+    border-radius: 0.2em;
+    cursor: pointer;
+    border: thin rgba(200,200,210,0) solid;
+
+    border: thin rgba(200,200,210,0) solid;
+    background: rgba(247,247,247,.1);
+    background: -moz-linear-gradient(top, rgba(247,247,247,.1) 0%, rgba(255,255,255,.1) 41%, rgba(214,214,214,.1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,247,247,1)), color-stop(41%, rgba(255,255,255,1)), color-stop(100%, rgba(214,214,214,1)));
+    background: -webkit-linear-gradient(top, rgba(247,247,247,.1) 0%, rgba(255,255,255,.1) 41%, rgba(214,214,214,.1) 100%);
+    background: -o-linear-gradient(top, rgba(247,247,247,.1) 0%, rgba(255,255,255,.1) 41%, rgba(214,214,214,.1) 100%);
+    background: -ms-linear-gradient(top, rgba(247,247,247,.1) 0%, rgba(255,255,255,.1) 41%, rgba(214,214,214,.1) 100%);
+    background: linear-gradient(to bottom, rgba(247,247,247,.1) 0%, rgba(255,255,255,.1) 41%, rgba(214,214,214,.1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#d6d6d6', GradientType=0 );
+
+     transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+}
+
+.menu_element:hover{
+    border: thin rgba(200,200,210,1) solid;
+    background: rgba(247,247,247,1);
+    background: -moz-linear-gradient(top, rgba(247,247,247,.5) 0%, rgba(255,255,255,.5) 41%, rgba(214,214,214,.5) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,247,247,1)), color-stop(41%, rgba(255,255,255,1)), color-stop(100%, rgba(214,214,214,1)));
+    background: -webkit-linear-gradient(top, rgba(247,247,247,.5) 0%, rgba(255,255,255,.5) 41%, rgba(214,214,214,.5) 100%);
+    background: -o-linear-gradient(top, rgba(247,247,247,.5) 0%, rgba(255,255,255,.5) 41%, rgba(214,214,214,.5) 100%);
+    background: -ms-linear-gradient(top, rgba(247,247,247,.5) 0%, rgba(255,255,255,.5) 41%, rgba(214,214,214,.5) 100%);
+    background: linear-gradient(to bottom, rgba(247,247,247,.5) 0%, rgba(255,255,255,.5) 41%, rgba(214,214,214,.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#d6d6d6', GradientType=0 );
+}
+    
+
+.menu_element img{
+    display: block;
+    margin-top: 0.5em;
+    margin-left: 0em;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0.5em;
+    border: thin rgba(255,255,255,0) solid;
+    border-radius: 2em; 
+    background: rgba(255,255,255,.3);
+    box-shadow: -0.3em -0.3em 0.1em rgba(255,255,255,.2);
+    
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+}
+
+.menu_element:hover img{
+    box-shadow: 0.2em 0.2em 0.2em rgba(0,0,0,.3);
+}
+
+.menu_element a span{
+	visibility: hidden;
+    opacity: 0;
+    display: none;
+    width: 100%;
+    overflow: hidden;
+}

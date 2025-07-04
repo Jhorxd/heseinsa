@@ -1,0 +1,683 @@
+[19-Apr-2017 21:52:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(553): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('2', '8', '1', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[20-Apr-2017 17:23:33 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(555): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('11', '1', '0', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[20-Apr-2017 17:23:38 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(555): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('10', '1', '0', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[20-Apr-2017 17:23:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(555): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('8', '1', '1', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[20-Apr-2017 17:24:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(555): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('10', '1', '0', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[20-Apr-2017 17:39:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(555): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('11', '1', '0', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[20-Apr-2017 17:39:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(555): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('11', '1', '0', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[20-Apr-2017 17:39:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(555): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('11', '1', '0', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[20-Apr-2017 17:39:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(555): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('8', '1', '1', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[20-Apr-2017 17:39:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(555): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('3', '1', '0', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[20-Apr-2017 17:40:46 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/lamibl/system/application/controllers/maestros/configuracionimpresion.php(555): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('10', '1', '0', 'V')
+#4 /home/osaerp/public_html/desarrollo/lamibl/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/lamibl/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/lamibl/system/application/libraries/fpdf/fpdf.php on line 271
+[16-Sep-2017 16:05:01 UTC] PHP Fatal error:  Call to a member function order_by() on a non-object in /home/osaerp/public_html/desarrollo/lamibl/system/application/models/tesoreria/banco_model.php on line 27
+[16-Sep-2017 16:05:04 UTC] PHP Fatal error:  Call to a member function order_by() on a non-object in /home/osaerp/public_html/desarrollo/lamibl/system/application/models/tesoreria/banco_model.php on line 27
+[16-Sep-2017 16:05:18 UTC] PHP Fatal error:  Call to a member function order_by() on a non-object in /home/osaerp/public_html/desarrollo/lamibl/system/application/models/tesoreria/banco_model.php on line 27
+[16-Sep-2017 16:05:42 UTC] PHP Fatal error:  Call to a member function order_by() on a non-object in /home/osaerp/public_html/desarrollo/lamibl/system/application/models/tesoreria/banco_model.php on line 27
+[14-Nov-2017 15:20:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/inycon/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/inycon/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/inycon/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/inycon/system/application/controllers/maestros/configuracionimpresion.php(561): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('13', '14', '0', 'C')
+#4 /home/osaerp/public_html/desarrollo/inycon/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/inycon/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/inycon/system/application/libraries/fpdf/fpdf.php on line 271
+[14-Nov-2017 15:21:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file' in /home/osaerp/public_html/desarrollo/inycon/system/application/libraries/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/osaerp/public_html/desarrollo/inycon/system/application/libraries/fpdf/fpdf.php(1066): FPDF->Error('Some data has a...')
+#1 /home/osaerp/public_html/desarrollo/inycon/system/application/libraries/fpdf/fpdf.php(1002): FPDF->_checkoutput()
+#2 /home/osaerp/public_html/desarrollo/inycon/system/application/controllers/maestros/configuracionimpresion.php(561): FPDF->Output('I', 'temporal/Impres...')
+#3 [internal function]: Configuracionimpresion->impresionDocumento('17', '14', '0', 'C')
+#4 /home/osaerp/public_html/desarrollo/inycon/system/codeigniter/CodeIgniter.php(471): call_user_func_array(Array, Array)
+#5 /home/osaerp/public_html/desarrollo/inycon/index.php(229): require_once('/home/osaerp/pu...')
+#6 {main}
+  thrown in /home/osaerp/public_html/desarrollo/inycon/system/application/libraries/fpdf/fpdf.php on line 271
+[23-Jan-2018 09:27:35 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '<' in /home/osaerp/public_html/desarrollo/inycon/system/application/views/compras/ocompra_nueva.php on line 610
+[23-Jan-2018 09:27:53 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '<' in /home/osaerp/public_html/desarrollo/inycon/system/application/views/compras/ocompra_nueva.php on line 610
+[21-Oct-2022 12:45:27 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Cezpdf' not found in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php:7062
+Stack trace:
+#0 /home/amcsolution2/public_html/desarrollo/demoerp/system/codeigniter/CodeIgniter.php(471): Comprobante->verPdf('V', 'N', '_____')
+#1 /home/amcsolution2/public_html/desarrollo/demoerp/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php on line 7062
+[21-Oct-2022 12:45:29 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Cezpdf' not found in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php:7062
+Stack trace:
+#0 /home/amcsolution2/public_html/desarrollo/demoerp/system/codeigniter/CodeIgniter.php(471): Comprobante->verPdf('V', 'N', '_____')
+#1 /home/amcsolution2/public_html/desarrollo/demoerp/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php on line 7062
+[21-Oct-2022 12:45:30 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Cezpdf' not found in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php:7062
+Stack trace:
+#0 /home/amcsolution2/public_html/desarrollo/demoerp/system/codeigniter/CodeIgniter.php(471): Comprobante->verPdf('V', 'N', '_____')
+#1 /home/amcsolution2/public_html/desarrollo/demoerp/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php on line 7062
+[21-Oct-2022 12:45:33 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Cezpdf' not found in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php:7062
+Stack trace:
+#0 /home/amcsolution2/public_html/desarrollo/demoerp/system/codeigniter/CodeIgniter.php(471): Comprobante->verPdf('V', 'N', '_____')
+#1 /home/amcsolution2/public_html/desarrollo/demoerp/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php on line 7062
+[07-May-2023 18:21:58 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/reportes/ventas.php:3895
+Stack trace:
+#0 /home/amcsolution2/public_html/desarrollo/demoerp/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2023-01-09', '2023-05-16')
+#1 /home/amcsolution2/public_html/desarrollo/demoerp/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/reportes/ventas.php on line 3895
+[09-May-2023 10:25:34 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/reportes/ventas.php:3895
+Stack trace:
+#0 /home/amcsolution2/public_html/desarrollo/demoerp/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2022-11-01', '2023-05-31')
+#1 /home/amcsolution2/public_html/desarrollo/demoerp/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/reportes/ventas.php on line 3895
+[09-May-2023 10:25:38 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/reportes/ventas.php:3895
+Stack trace:
+#0 /home/amcsolution2/public_html/desarrollo/demoerp/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2022-11-01', '2023-05-31')
+#1 /home/amcsolution2/public_html/desarrollo/demoerp/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/reportes/ventas.php on line 3895
+[09-May-2023 10:25:39 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/reportes/ventas.php:3895
+Stack trace:
+#0 /home/amcsolution2/public_html/desarrollo/demoerp/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2022-11-01', '2023-05-31')
+#1 /home/amcsolution2/public_html/desarrollo/demoerp/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/reportes/ventas.php on line 3895
+[10-May-2023 12:11:46 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Cezpdf' not found in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php:7062
+Stack trace:
+#0 /home/amcsolution2/public_html/desarrollo/demoerp/system/codeigniter/CodeIgniter.php(471): Comprobante->verPdf('V', 'F', '_____')
+#1 /home/amcsolution2/public_html/desarrollo/demoerp/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php on line 7062
+[17-May-2023 12:21:30 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Cezpdf' not found in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php:7062
+Stack trace:
+#0 /home/amcsolution2/public_html/desarrollo/demoerp/system/codeigniter/CodeIgniter.php(471): Comprobante->verPdf('V', 'N', '_____')
+#1 /home/amcsolution2/public_html/desarrollo/demoerp/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/desarrollo/demoerp/system/application/controllers/ventas/comprobante.php on line 7062
+[07-Jul-2023 16:55:20 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Cezpdf' not found in /home/amcsolution2/public_html/produccion/sani/system/application/controllers/ventas/comprobante.php:7062
+Stack trace:
+#0 /home/amcsolution2/public_html/produccion/sani/system/codeigniter/CodeIgniter.php(471): Comprobante->verPdf('V', 'F', '_____')
+#1 /home/amcsolution2/public_html/produccion/sani/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/produccion/sani/system/application/controllers/ventas/comprobante.php on line 7062
+[25-Jul-2023 16:56:28 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Cezpdf' not found in /home/amcsolution2/public_html/produccion/sani/system/application/controllers/ventas/comprobante.php:7068
+Stack trace:
+#0 /home/amcsolution2/public_html/produccion/sani/system/codeigniter/CodeIgniter.php(471): Comprobante->verPdf('C', 'F', '_____')
+#1 /home/amcsolution2/public_html/produccion/sani/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/produccion/sani/system/application/controllers/ventas/comprobante.php on line 7068
+[27-Jul-2023 16:18:13 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Cezpdf' not found in /home/amcsolution2/public_html/produccion/sani/system/application/controllers/ventas/comprobante.php:7068
+Stack trace:
+#0 /home/amcsolution2/public_html/produccion/sani/system/codeigniter/CodeIgniter.php(471): Comprobante->verPdf('V', 'F', '_____')
+#1 /home/amcsolution2/public_html/produccion/sani/index.php(229): require_once('/home/amcsoluti...')
+#2 {main}
+  thrown in /home/amcsolution2/public_html/produccion/sani/system/application/controllers/ventas/comprobante.php on line 7068
+[13-Sep-2023 10:35:44 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function obtenerDatos() in /home/osafactc2/public_html/desarrollo/sani/system/application/controllers/reportes/ventas.php:1938
+Stack trace:
+#0 /home/osafactc2/public_html/desarrollo/sani/system/codeigniter/CodeIgniter.php(471): Ventas->ventasDiarias_pdf('2023-9-13', 'administrador')
+#1 /home/osafactc2/public_html/desarrollo/sani/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/desarrollo/sani/system/application/controllers/reportes/ventas.php on line 1938
+[13-Sep-2023 11:26:39 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function imprime() on null in /home/osafactc2/public_html/desarrollo/sani/system/application/controllers/reportes/ventas.php:1936
+Stack trace:
+#0 /home/osafactc2/public_html/desarrollo/sani/system/codeigniter/CodeIgniter.php(471): Ventas->ventasDiarias_pdf('2023-9-13', 'administrador')
+#1 /home/osafactc2/public_html/desarrollo/sani/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/desarrollo/sani/system/application/controllers/reportes/ventas.php on line 1936
+[13-Sep-2023 11:26:40 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function imprime() on null in /home/osafactc2/public_html/desarrollo/sani/system/application/controllers/reportes/ventas.php:1936
+Stack trace:
+#0 /home/osafactc2/public_html/desarrollo/sani/system/codeigniter/CodeIgniter.php(471): Ventas->ventasDiarias_pdf('2023-9-13', 'administrador')
+#1 /home/osafactc2/public_html/desarrollo/sani/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/desarrollo/sani/system/application/controllers/reportes/ventas.php on line 1936
+[04-Jan-2024 12:34:56 America/Lima] PHP Fatal error:  Call to undefined function post() in /home/unitecperu/public_html/desarrollo_heseinsa/heseinsa/system/application/controllers/ventas/comprobante.php on line 3371
+[04-Jan-2024 12:35:00 America/Lima] PHP Fatal error:  Call to undefined function post() in /home/unitecperu/public_html/desarrollo_heseinsa/heseinsa/system/application/controllers/ventas/comprobante.php on line 3371
+[04-Jan-2024 12:37:53 America/Lima] PHP Fatal error:  Call to undefined function post() in /home/unitecperu/public_html/desarrollo_heseinsa/heseinsa/system/application/controllers/ventas/comprobante.php on line 3371
+[04-Jan-2024 12:38:20 America/Lima] PHP Fatal error:  Call to undefined function post() in /home/unitecperu/public_html/desarrollo_heseinsa/heseinsa/system/application/controllers/ventas/comprobante.php on line 3371
+[04-Jan-2024 12:39:04 America/Lima] PHP Fatal error:  Call to undefined function post() in /home/unitecperu/public_html/desarrollo_heseinsa/heseinsa/system/application/controllers/ventas/comprobante.php on line 3371
+[04-Jan-2024 12:40:08 America/Lima] PHP Fatal error:  Call to undefined function post() in /home/unitecperu/public_html/desarrollo_heseinsa/heseinsa/system/application/controllers/ventas/comprobante.php on line 3371
+[04-Jan-2024 12:45:13 America/Lima] PHP Fatal error:  Call to undefined function post() in /home/unitecperu/public_html/desarrollo_heseinsa/heseinsa/system/application/controllers/ventas/comprobante.php on line 3364
+[04-Jan-2024 12:55:50 America/Lima] PHP Fatal error:  Call to undefined function post() in /home/unitecperu/public_html/desarrollo_heseinsa/heseinsa/system/application/controllers/ventas/comprobante.php on line 3371
+[04-Jan-2024 12:56:45 America/Lima] PHP Fatal error:  Call to undefined function post() in /home/unitecperu/public_html/desarrollo_heseinsa/heseinsa/system/application/controllers/ventas/comprobante.php on line 3371
+[09-Jan-2024 14:27:01 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function obtener_comprobante() on null in /home/osafactc2/public_html/produccion/heseinsa/system/application/libraries/lib_props.php:575
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/comprobante.php(3376): Lib_props->sendDocMail('N*OC:   / ENV\xC3\x8D...', 'Isaias.ccapa@gm...', '               ...', true, '8', '30', Object(stdClass))
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Comprobante->sendDocMail()
+#2 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#3 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/libraries/lib_props.php on line 575
+[09-Jan-2024 14:27:30 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function obtener_comprobante() on null in /home/osafactc2/public_html/produccion/heseinsa/system/application/libraries/lib_props.php:575
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/comprobante.php(3376): Lib_props->sendDocMail('N*OC:   / ENV\xC3\x8D...', 'Isaias.ccapa@gm...', '               ...', true, '8', '30', Object(stdClass))
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Comprobante->sendDocMail()
+#2 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#3 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/libraries/lib_props.php on line 575
+[09-Jan-2024 14:32:08 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function obtener_comprobante() on null in /home/osafactc2/public_html/produccion/heseinsa/system/application/libraries/lib_props.php:575
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/comprobante.php(3376): Lib_props->sendDocMail('N*OC:   / ENV\xC3\x8D...', 'Isaias.ccapa@gm...', '               ...', true, '8', '30', Object(stdClass))
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Comprobante->sendDocMail()
+#2 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#3 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/libraries/lib_props.php on line 575
+[09-Jan-2024 14:32:34 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function obtener_comprobante() on null in /home/osafactc2/public_html/produccion/heseinsa/system/application/libraries/lib_props.php:575
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/comprobante.php(3376): Lib_props->sendDocMail('N*OC:   / ENV\xC3\x8D...', 'Isaias.ccapa@gm...', '               ...', true, '8', '31', Object(stdClass))
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Comprobante->sendDocMail()
+#2 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#3 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/libraries/lib_props.php on line 575
+[19-Mar-2024 18:16:15 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:19:01 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:21:35 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:02 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:05 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:07 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:07 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:07 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:08 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:08 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:08 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:08 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:08 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:09 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:09 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:09 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:09 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:09 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:09 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:10 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:10 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:22:10 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:27:42 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:27:44 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:27:44 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:27:45 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:27:45 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:27:45 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[19-Mar-2024 18:27:45 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Ventas_Model::total_pagos() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php:4297
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Ventas->descargarExcel('2024-02-01', '2024-02-29')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/reportes/ventas.php on line 4297
+[22-Jun-2024 12:38:46 America/Lima] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Kardex::reportKardexDeSunat(), 3 passed in /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php on line 471 and exactly 4 expected in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php:389
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Kardex->reportKardexDeSunat('06', '4', '2')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php on line 389
+[22-Jun-2024 12:39:11 America/Lima] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Kardex::reportKardexDeSunat(), 3 passed in /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php on line 471 and exactly 4 expected in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php:389
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Kardex->reportKardexDeSunat('06', '2', '2')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php on line 389
+[22-Jun-2024 12:39:55 America/Lima] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Kardex::reportKardexDeSunat(), 2 passed in /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php on line 471 and exactly 4 expected in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php:389
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Kardex->reportKardexDeSunat('2', '2')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php on line 389
+[22-Jun-2024 12:41:34 America/Lima] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Kardex::reportKardexDeSunat(), 2 passed in /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php on line 471 and exactly 4 expected in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php:389
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Kardex->reportKardexDeSunat('2', '2')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php on line 389
+[22-Jun-2024 12:42:42 America/Lima] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Kardex::reportKardexDeSunat(), 3 passed in /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php on line 471 and exactly 4 expected in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php:389
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Kardex->reportKardexDeSunat('06', '4', '2')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php on line 389
+[22-Jun-2024 12:44:45 America/Lima] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Kardex::reportKardexDeSunat(), 2 passed in /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php on line 471 and exactly 4 expected in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php:389
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Kardex->reportKardexDeSunat('4', '2')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php on line 389
+[22-Jun-2024 12:48:19 America/Lima] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Kardex::reportKardexDeSunat(), 3 passed in /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php on line 471 and exactly 4 expected in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php:389
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Kardex->reportKardexDeSunat('01', '3', '2')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php on line 389
+[22-Jun-2024 12:49:46 America/Lima] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Kardex::reportKardexDeSunat(), 3 passed in /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php on line 471 and exactly 4 expected in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php:389
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Kardex->reportKardexDeSunat('01', '5', '2')
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/kardex.php on line 389
+[27-Jun-2024 17:45:46 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Almacenproducto_Model::getTable() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:51
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Movmercaderia->tabla_mov()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 51
+[27-Jun-2024 17:46:27 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined method Almacenproducto_Model::getTable() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:51
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Movmercaderia->tabla_mov()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 51
+[28-Jun-2024 14:27:17 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:1
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(315): include()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 1
+[28-Jun-2024 14:27:24 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:1
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(315): include()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 1
+[28-Jun-2024 14:27:52 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:1
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(315): include()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 1
+[28-Jun-2024 14:27:53 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:1
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(315): include()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 1
+[28-Jun-2024 14:27:53 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:1
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(315): include()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 1
+[28-Jun-2024 14:27:53 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:1
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(315): include()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 1
+[28-Jun-2024 14:27:53 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:1
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(315): include()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 1
+[28-Jun-2024 14:27:54 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:1
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(315): include()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 1
+[28-Jun-2024 14:27:54 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:1
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(315): include()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 1
+[28-Jun-2024 14:28:06 America/Lima] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php:1
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(315): include()
+#1 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#2 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/movmercaderia.php on line 1
+[04-Nov-2024 16:56:09 America/Lima] PHP Fatal error:  Uncaught PHPExcel_Exception: Maximum 31 characters allowed in sheet title. in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php:456
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php(828): PHPExcel_Worksheet::checkSheetTitle('INGRESO DE MERC...')
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/inventario.php(1631): PHPExcel_Worksheet->setTitle('INGRESO DE MERC...')
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Inventario->DetalleInventarioExcel('98')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php on line 456
+[04-Nov-2024 16:56:11 America/Lima] PHP Fatal error:  Uncaught PHPExcel_Exception: Maximum 31 characters allowed in sheet title. in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php:456
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php(828): PHPExcel_Worksheet::checkSheetTitle('INGRESO DE MERC...')
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/inventario.php(1631): PHPExcel_Worksheet->setTitle('INGRESO DE MERC...')
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Inventario->DetalleInventarioExcel('98')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php on line 456
+[04-Nov-2024 16:56:14 America/Lima] PHP Fatal error:  Uncaught PHPExcel_Exception: Maximum 31 characters allowed in sheet title. in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php:456
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php(828): PHPExcel_Worksheet::checkSheetTitle('INGRESO DE MERC...')
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/inventario.php(1631): PHPExcel_Worksheet->setTitle('INGRESO DE MERC...')
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Inventario->DetalleInventarioExcel('98')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php on line 456
+[04-Nov-2024 16:56:15 America/Lima] PHP Fatal error:  Uncaught PHPExcel_Exception: Maximum 31 characters allowed in sheet title. in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php:456
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php(828): PHPExcel_Worksheet::checkSheetTitle('INGRESO DE MERC...')
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/inventario.php(1631): PHPExcel_Worksheet->setTitle('INGRESO DE MERC...')
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Inventario->DetalleInventarioExcel('98')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php on line 456
+[04-Nov-2024 16:56:16 America/Lima] PHP Fatal error:  Uncaught PHPExcel_Exception: Maximum 31 characters allowed in sheet title. in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php:456
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php(828): PHPExcel_Worksheet::checkSheetTitle('INGRESO DE MERC...')
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/inventario.php(1631): PHPExcel_Worksheet->setTitle('INGRESO DE MERC...')
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Inventario->DetalleInventarioExcel('98')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php on line 456
+[04-Nov-2024 16:56:25 America/Lima] PHP Fatal error:  Uncaught PHPExcel_Exception: Maximum 31 characters allowed in sheet title. in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php:456
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php(828): PHPExcel_Worksheet::checkSheetTitle('INGRESO DE MERC...')
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/inventario.php(1631): PHPExcel_Worksheet->setTitle('INGRESO DE MERC...')
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Inventario->DetalleInventarioExcel('98')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php on line 456
+[04-Nov-2024 16:56:28 America/Lima] PHP Fatal error:  Uncaught PHPExcel_Exception: Maximum 31 characters allowed in sheet title. in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php:456
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php(828): PHPExcel_Worksheet::checkSheetTitle('INGRESO DE MERC...')
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/inventario.php(1631): PHPExcel_Worksheet->setTitle('INGRESO DE MERC...')
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Inventario->DetalleInventarioExcel('98')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php on line 456
+[04-Nov-2024 16:56:28 America/Lima] PHP Fatal error:  Uncaught PHPExcel_Exception: Maximum 31 characters allowed in sheet title. in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php:456
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php(828): PHPExcel_Worksheet::checkSheetTitle('INGRESO DE MERC...')
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/inventario.php(1631): PHPExcel_Worksheet->setTitle('INGRESO DE MERC...')
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Inventario->DetalleInventarioExcel('98')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php on line 456
+[04-Nov-2024 16:56:29 America/Lima] PHP Fatal error:  Uncaught PHPExcel_Exception: Maximum 31 characters allowed in sheet title. in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php:456
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php(828): PHPExcel_Worksheet::checkSheetTitle('INGRESO DE MERC...')
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/almacen/inventario.php(1631): PHPExcel_Worksheet->setTitle('INGRESO DE MERC...')
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Inventario->DetalleInventarioExcel('98')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/third_party/PHPExcel/Worksheet.php on line 456
+[12-Dec-2024 11:08:31 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function confirmInventariado() on null in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php:4682
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(4474): Notacredito->disminuir_stock(Object(stdClass))
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(1459): Notacredito->actualizar_stock_nota(Object(stdClass))
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Notacredito->envioSunatFac('49')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php on line 4682
+[11-Jan-2025 19:22:18 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function confirmInventariado() on null in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php:4682
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(4474): Notacredito->disminuir_stock(Object(stdClass))
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(1459): Notacredito->actualizar_stock_nota(Object(stdClass))
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Notacredito->envioSunatFac('57')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php on line 4682
+[18-Feb-2025 16:48:13 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function confirmInventariado() on null in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php:4682
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(4474): Notacredito->disminuir_stock(Object(stdClass))
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(1459): Notacredito->actualizar_stock_nota(Object(stdClass))
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Notacredito->envioSunatFac('63')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php on line 4682
+[04-Mar-2025 16:38:14 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function confirmInventariado() on null in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php:4764
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(4472): Notacredito->aumentar_stock(Object(stdClass))
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(1769): Notacredito->actualizar_stock_nota(Object(stdClass))
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Notacredito->envioSunatFac('64')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php on line 4764
+[07-Mar-2025 15:31:31 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function confirmInventariado() on null in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php:4764
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(4472): Notacredito->aumentar_stock(Object(stdClass))
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(1769): Notacredito->actualizar_stock_nota(Object(stdClass))
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Notacredito->envioSunatFac('65')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php on line 4764
+[11-Mar-2025 16:58:54 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function confirmInventariado() on null in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php:4682
+Stack trace:
+#0 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(4474): Notacredito->disminuir_stock(Object(stdClass))
+#1 /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php(1459): Notacredito->actualizar_stock_nota(Object(stdClass))
+#2 /home/osafactc2/public_html/produccion/heseinsa/system/codeigniter/CodeIgniter.php(471): Notacredito->envioSunatFac('67')
+#3 /home/osafactc2/public_html/produccion/heseinsa/index.php(229): require_once('/home/osafactc2...')
+#4 {main}
+  thrown in /home/osafactc2/public_html/produccion/heseinsa/system/application/controllers/ventas/notacredito.php on line 4682

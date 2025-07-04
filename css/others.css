@@ -1,0 +1,749 @@
+/*##############################################################################*/
+/*##### BY RAWIL
+/*##### OTHERS STYLES
+/*##############################################################################*/
+
+    .general{
+        position: relative;
+        width: 100%;
+        text-align: justify;
+        padding: 0%;
+        color: rgba(27,27,27,1);
+    }
+
+    .titulo{
+        color: #415166;
+
+        text-align: left;
+        vertical-align: middle;
+        
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        
+        font-size: 9pt;
+        float: left;
+        display: block;
+        width: 96%;
+        padding: 2%;
+        left: 0;
+    }
+
+    .opcionesL{
+        float: left;
+        width: 55%;
+        top: 0em;
+        left: 0%;
+        padding: 1%;
+    }
+
+    .opcionesR{
+        float: left;
+        width: 35%;
+        top: 0em;
+        left: 0%;
+        padding: 1%;
+    }
+
+    .opcionesL .box, .opcionesR .box{
+        float: left;
+        padding: 0.5em;
+        margin-top: 1em;
+        margin-left: 0em;
+        margin-bottom: 1em;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        border: thin rgba(200,200,210,1) solid;
+        border-radius: 0.2em;
+
+        background: rgba(247,247,247,1);
+        background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 41%, rgba(214,214,214,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,247,247,1)), color-stop(41%, rgba(255,255,255,1)), color-stop(100%, rgba(214,214,214,1)));
+        background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 41%, rgba(214,214,214,1) 100%);
+        background: -o-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 41%, rgba(214,214,214,1) 100%);
+        background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 41%, rgba(214,214,214,1) 100%);
+        background: linear-gradient(to bottom, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 41%, rgba(214,214,214,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#d6d6d6', GradientType=0 );
+    }
+
+    .opcionesL .box .loading-table, .opcionesR .box .loading-table{
+        display: none;
+    }
+
+    .opcionesL .icon-box-nav, .opcionesR .icon-box-nav{ 
+        margin-right: 0.5em;
+        width: 2em;
+        height: 2em;
+        background: rgba(0,0,0,.3);
+        border: rgba(255,255,255,0) thin solid;
+        border-radius: 10%;
+
+        transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+    }
+
+    .opcionesL .icon-box-nav:hover, .opcionesR .icon-box-nav:hover{
+        background: rgba(0,0,0,.3);
+        border: thin rgba(255,255,255,1) solid;
+    }
+
+    .footerIndex{
+        position: absolute;
+        bottom: 0;
+        left: 6em;
+        right: 6em;
+        text-align: center;
+    }
+
+    p{
+        font-size: 9pt;
+    }
+
+    .row{
+        margin: auto;
+    }
+
+    .row > div > a{
+        color: #fff;
+    }
+
+    .btn-close{
+        z-index: 3;
+        position: absolute;
+        top: 3em;
+        right: 3em;
+        cursor: pointer;
+        font-size: 10pt;
+    }
+
+    .btn-close:hover{
+        font-weight: bold;
+    }
+
+/*#####################################*/
+/*##### DISPLAYS
+/*#####################################*/
+
+    .display-none{
+        display: none;
+    }
+
+    .display-inline-block{
+        display: inline-block;
+    }
+
+    .opacity-20{
+        opacity: 0.2;
+    }
+
+    .opacity-50{
+        opacity: 0.5;
+    }
+
+    .opacity-80{
+        opacity: 0.8;
+    }
+
+    .opacity-100{
+        opacity: 1;
+    }
+
+/*#####################################*/
+/*##### SIZES
+/*#####################################*/
+
+  .h-1{
+      height: 1em !important;
+  }
+
+  .h-2{
+      height: 2em !important;
+  }
+
+  .h-3{
+      height: 3em !important;
+  }
+
+  .h-4{
+      height: 4em !important;
+  }
+
+  .h-5{
+      height: 5em !important;
+  }
+
+  .h-6{
+      height: 6em !important;
+  }
+  
+  .h-7{
+      height: 7em !important;
+  }
+  
+  .h-8{
+      height: 8em !important;
+  }
+  
+  .h-9{
+      height: 9em !important;
+  }
+
+  .h-10{
+      height: 10em !important;
+  }
+
+  .w-1{
+      width: 1em !important;
+  }
+
+  .w-2{
+      width: 2em !important;
+  }
+
+  .w-3{
+      width: 3em !important;
+  }
+
+  .w-4{
+      width: 4em !important;
+  }
+
+  .w-5{
+      width: 5em !important;
+  }
+
+  .w-6{
+      width: 6em !important;
+  }
+  
+  .w-7{
+      width: 7em !important;
+  }
+  
+  .w-8{
+      width: 8em !important;
+  }
+  
+  .w-9{
+      width: 9em !important;
+  }
+  
+  .w-10{
+      width: 10em !important;
+  }
+  
+  .w-20{
+      width: 20em !important;
+  }
+  
+  .w-30{
+      width: 30em !important;
+  }
+  
+  .w-40{
+      width: 40em !important;
+  }
+
+  .w-porc-60{
+      width: 60% !important;
+  }
+
+  .w-porc-70{
+      width: 70% !important;
+  }
+
+  .w-porc-80{
+      width: 80% !important;
+  }
+
+  .w-porc-90{
+      width: 90% !important;
+  }
+  .w-porc-100{
+      width: 100% !important;
+  }
+
+  /*############## IMAGENES ##############*/
+
+    .image-size-1{
+      width: 1em;
+      height: 1em;
+    }
+
+    .image-size-1l{
+      width: 1.25em;
+      height: 1.25em;
+    }
+
+    .image-size-1b{
+      width: 1.5em;
+      height: 1.5em;
+    }
+
+    .image-size-2{
+      width: 2em;
+      height: 2em;
+    }
+
+    .image-size-2l{
+      width: 2.25em;
+      height: 2.25em;
+    }
+
+    .image-size-2b{
+      width: 2.5em;
+      height: 2.5em;
+    }
+
+    .image-size-3{
+      width: 3em;
+      height: 3em;
+    }
+
+    .image-size-3l{
+      width: 3.25em;
+      height: 3.25em;
+    }
+
+    .image-size-3b{
+      width: 3.5em;
+      height: 3.5em;
+    }
+
+    .image-size-4{
+      width: 4em;
+      height: 4em;
+    }
+
+    .image-size-4b{
+      width: 4.5em;
+      height: 4.5em;
+    }
+
+    .image-size-5{
+      width: 5em;
+      height: 5em;
+    }
+
+    .image-size-5b{
+      width: 5.5em;
+      height: 5.5em;
+    }
+
+    .image-porc-80{
+      width: 80%;
+      height: 80%;
+    }
+
+    .image-porc-90{
+      width: 90%;
+      height: 90%;
+    }
+
+/*#####################################*/
+/*##### FUENTES
+/*#####################################*/
+
+    /* SIZES */
+        .font-6{
+            font-size: 6pt !important;
+        }
+
+        .font-7{
+            font-size: 7pt !important;
+        }
+
+        .font-8{
+            font-size: 8pt !important;
+        }
+
+        .font-9{
+            font-size: 9pt !important;
+        }
+
+        .font-10{
+            font-size: 10pt !important;
+        }
+    /* ALIGN */
+        .text-center{
+            text-align: center;
+        }
+
+        .text-right{
+            text-align: right;
+        }
+
+        .text-justify{
+            text-align: justify;
+        }
+    /* COLORS */
+        .color-white{
+            color: white !important;
+        }
+
+        .color-red{
+            color: red !important;
+        }
+
+        .color-black{
+            color: black !important;
+        }
+
+        .color-green{
+            color: green !important;
+        }
+
+        .bold{
+            font-weight: bold !important;
+        }
+
+
+/*#####################################*/
+/*##### SELECT EMPRESA
+/*#####################################*/
+
+    .select-empresa{
+        position: absolute;
+        top: 2.5em;
+        right: 0em;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+        width: 15em;
+        border-radius: 0em 0em 0em 0em;
+    }
+
+    .select-empresa:before{
+        content: "\0000a0";
+        position: absolute;
+        top: 0em;
+        right: 100%;
+        width: 0px;
+        height: 0;
+        border-right: 8.0em solid rgb(51, 122, 183);
+        border-top: 3.5em solid transparent;
+        border-bottom: 0em solid transparent;
+    }
+
+    .select-empresa select{
+        float: right;
+        border-radius: 0.5em 0em 0em 0.5em;
+        height: 2em;
+        width: 15em;
+    }
+
+/*#####################################*/
+/*##### Detalle denegado, envios al FACT
+/*#####################################*/
+
+	.detallesWrong, .detallesAnulado{
+	    position: relative;
+	    color: red;
+	    font-size: 8pt;
+	}
+
+	.detallesWrong:hover, .detallesAnulado:hover{
+	    color: rgba(0,0,0,1);
+	    cursor: pointer;
+	}
+
+	.detallesWrong:hover .detallesWrong2{
+	    padding: 1em;
+	    border-radius: 0em 0em 0.5em 0.5em;
+	    background: rgba(133,210,255,1);
+	    top: 0em;
+	    right: 105%;
+	    width: 15em;
+	    color: rgba(0,0,0,1);
+	    text-indent: 1em;
+	    text-align: justify;
+	    visibility: visible;
+	}
+
+	.detallesWrong2{
+	    position: absolute;
+	    visibility: hidden;
+	    top: 0em;
+	    width: 15em;
+	    right: 105%;
+	    color: rgba(0,0,0,0);
+	    -webkit-transition: all 500ms linear;
+	}
+
+	.detallesAnulado:hover .detallesAnulado2{
+	    z-index: 2;
+	    padding: 1em;
+	    border-radius: 0em 0em 0.5em 0.5em;
+	    background: rgba(133,210,255,1);
+	    border-top: thin rgba(255,255,255,1) solid;
+	    border-left: thin rgba(255,255,255,1) solid;
+	    border-right: thin rgba(255,255,255,1) solid;
+	    top: 100%;
+	    margin-left: -7em;
+	    width: 15em;
+	    color: rgba(0,0,0,1);
+	    text-indent: 1em;
+	    text-align: justify;
+	    visibility: visible;
+	}
+
+	.detallesAnulado2{
+	    position: absolute;
+	    visibility: hidden;
+	    top: 100%;
+	    margin-left: -7em;
+	    width: 15em;
+	    color: rgba(0,0,0,0);
+	    -webkit-transition: all 500ms linear;
+	}
+
+
+	.tip{
+	    position: relative;
+	    color: black;
+	    font-size: 8pt;
+	}
+
+	.tip:hover{
+	    color: rgba(0,0,0,1);
+	    cursor: pointer;
+	}
+
+	.tip:hover .msg{
+	    padding: 1.5em;
+	    border-radius: 1em 1em 1em 0em;
+	    background: rgba(0,0,0,.8);
+	    bottom: 100%;
+	    left: -3.5em;
+	    width: 100%;
+	    color: white;
+	    text-indent: 1em;
+	    text-align: justify;
+	    visibility: visible;
+	}
+
+	.msg{
+	    position: absolute;
+	    visibility: hidden;
+	    bottom: 100%;
+	    width: 100%;
+	    left: -3.5em;
+	    font-weight: bold;
+	    color: rgba(0,0,0,0);
+	    -webkit-transition: all 500ms linear;
+	}
+
+	.msg:after{
+	    content: "\0000a0";
+	    position: absolute;
+	    top: 100%;
+	    left: 0;
+	    width: 0; 
+	    height: 0; 
+	    border-right: 3em solid rgba(0,0,0,.8);
+	    border-top: 0em solid transparent;
+	    border-bottom: 1.5em solid transparent; 
+	}
+
+	.loading-table{
+	    z-index: 9999;
+	    display: none;
+	    position: absolute;
+	    background: rgba(53,175,227,.2);
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.loading-table img{
+	    position: absolute;
+	    width: 250px;
+	    height: 250px;
+	    margin-top: -125px;
+	    top: 50%;
+	    margin-left: -125px;
+	    left: 50%;
+	}
+
+	.fancybox-slide--iframe .fancybox-content {
+	    width  : auto;
+	    height : auto;
+	    max-width  : 850px;
+	    max-height : 850px;
+	    margin: 0; 
+	}
+
+/*##############################################################################*/
+/*##### RC -> Toggle Switch - Checkbox
+/*##############################################################################*/
+
+	.Switch {
+	    position: relative;
+	    display: inline-block;
+	    font-size: 1.6em;
+	    font-weight: bold;
+	    color: #ccc;
+	    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
+	    height: 22px;
+	    padding: 6px 6px 5px 6px;
+	    border: 1px solid #ccc;
+	    border: 1px solid rgba(0, 0, 0, 0.2);
+	    border-radius: 4px;
+	    background: #ececec;
+	    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1), inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+	    cursor: pointer;
+	    font-size: 16px;
+	}
+
+	body.IE7 .Switch {
+	    width: 78px;
+	}
+
+	.Switch span {
+	    display: inline-block;
+	    width: 35px;
+	}
+
+	.Switch span.On {
+	    color: #33d2da;
+	}
+
+	.Switch .Toggle {
+	    position: absolute;
+	    top: 1px;
+	    width: 37px;
+	    height: 25px;
+	    border: 1px solid #ccc;
+	    border: 1px solid rgba(0, 0, 0, 0.3);
+	    border-radius: 4px;
+	    background: #fff;
+	    background: linear-gradient(top, #ececec 0%, #ffffff 100%);
+	    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.5);
+	    z-index: 10;
+	    -webkit-transition: all 0.15s ease-in-out;
+	    -moz-transition: all 0.15s ease-in-out;
+	    -o-transition: all 0.15s ease-in-out;
+	    -ms-transition: all 0.15s ease-in-out;
+	}
+
+	.Switch.On .Toggle {
+	    left: 2%;
+	}
+
+	.Switch.Off .Toggle {
+	    left: 54%;
+	}
+
+	/* Round Switch */
+	.Switch.Round {
+	    padding: 0px 26px;
+	    border-radius: 40px;
+	}
+
+	body.IE7 .Switch.Round {
+	    width: 1px;
+	}
+
+	.Switch.Round .Toggle {
+	    border-radius: 40px;
+	    width: 18px;
+	    height: 18px;
+	}
+
+	.Switch.Round.Off .Toggle {
+	    left: 1px;
+	    background: #4CAF50;
+	}
+
+	.Switch.Round.On .Toggle {
+	    left: 63%;
+	}
+
+
+	.pall-0{
+	    padding: 0em !important;
+	}
+
+	.py-0{
+	    padding-top: 0em !important;
+	    padding-bottom: 0em !important;
+	}
+
+	.px-0{
+	    padding-left: 0em !important;
+	    padding-right: 0em !important;
+	}
+
+	.pall-1{
+	    padding: 1em !important;
+	}
+
+	.py-1{
+	    padding-top: 1em !important;
+	    padding-bottom: 1em !important;
+	}
+
+	.px-1{
+	    padding-left: 1em !important;
+	    padding-right: 1em !important;
+	}
+
+	.color-red{
+	    color: red;
+	}
+
+/*##############################################################################*/
+/*##### RC -> Botones padres e hijos
+/*##############################################################################*/
+
+	.btn-padre{
+		position: relative;
+	}
+
+	.btn-hijo{
+		display: none;
+		z-index: 500;
+		position: absolute;
+    right: 100%;
+    margin-right: 0.2em;
+    top: -0.5em;
+    padding: 0.5em;
+    background: rgba(0,0,0,0.6);
+    border-radius: 0.3em;
+	}
+
+	.btn-hijo li{
+		display: inline-block;
+    margin-right: 0.5em;
+		font-weight: bold;
+	}
+
+	.btn-hijo button{
+		font-weight: bold;
+	}
+
+	.btn-hijo li:last-child{
+    margin-right: 0em;
+	}
+
+	.btn-hijoInfo{
+		margin-top: 0.5em;
+		padding: 0.5em;
+		background: rgba(255,255,255,.9);
+		border-radius: 0.25em;
+	}
+
+	.btn-hijoInfo li{
+		display: block;
+		text-align: left;
+		margin-top: 0.3em;
+		width: 100%;
+	}
+
+	.btn-hijoInfo button{
+		font-size: 8pt;
+		padding: 1.0em;
+		width: 100%;
+	}
+
+/*##############################################################################*/
+/*##### END RC -> RAWIL
+/*##############################################################################*/

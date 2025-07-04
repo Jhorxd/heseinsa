@@ -1,0 +1,245 @@
+/*
+
+-----------------------------------------------
+
+Navigation
+
+----------------------------------------------- */
+
+
+
+/* navigation (horizontal subnavigation)
+
+----------------------------------------------- */
+
+ul.nav,
+
+ul.nav * { margin:0;padding:0;}
+
+ul.nav {
+
+  position:relative;
+
+  background: #2e6da4;
+
+  max-width:100%;
+
+  height:1.7em;
+
+  }
+
+ul.nav li {
+
+	cursor:pointer;
+
+	float:left;
+
+	text-align:center;
+
+	list-style-type:none;
+
+	font-weight:normal;
+
+}
+
+ul.nav li ul {
+
+	cursor:default;
+
+	width:100%;
+
+	max-width:100%;
+
+	position:absolute;
+
+	height:auto;
+
+	top:1.5em;
+
+	background-position:0 0 !important;
+
+	left:-9000px;
+
+}
+
+ul.nav li ul li {
+	padding:0;
+	border:none;
+	width:auto;
+	max-width:none;
+}
+
+ul.nav li a {
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	float:left;
+	padding:0 0.5em;
+	height:1.7em;
+	line-height:1.7em;
+}
+
+ul.nav li ul li a {
+
+	position:relative !important; /* ie Mac */
+
+	cursor:pointer !important;
+
+	white-space:nowrap;
+
+	line-height:2em;
+
+	height:2em;
+
+	font-weight:normal;
+
+	color:#666;
+
+	background-position:0 50% !important;
+
+}
+
+
+
+ul.nav li:hover a,
+
+ul.nav li a:hover,
+
+ul.nav li a:focus {color:#000; background:#ccc;}
+
+ul.nav li a:active {color:#666; background:#fff;}
+
+ul.nav li:hover ul {left:0;z-index:10}
+
+ul.nav li ul,
+
+ul.nav li {
+	background: #2e6da4 !important,
+	border-radius: 0.5em;
+}
+
+ul.nav li:hover ul li a {color:#444;}
+
+ul.nav li:hover ul li a:hover {color:#000; background:#fff;}
+
+ul.nav li:hover ul li a:active {color:#666; background:#fff;}
+
+
+
+ul.nav li.current a {color:#666; background:#fff; cursor:default; font-weight:bold;}
+
+ul.nav li.current ul {left:0;z-index:5}
+
+ul.nav li.current ul,
+
+ul.nav li.current {background:#2e6da4 !important}
+
+ul.nav li.current ul li a {color:#444; background:#2e6da4; font-weight:normal;}
+
+ul.nav li.current ul li a:hover {color:#000; background:#fff;}
+
+ul.nav li ul li.current a,
+
+ul.nav li ul li.current a:hover,
+
+ul.nav li.current:hover ul li a:active {color:#666; background:#fff;}
+
+
+
+
+
+/* navigation (vertical subnavigation)
+
+----------------------------------------------- */
+
+ul.nav {
+
+  background: #337ab7; /*Color de la barra de navegacion*/
+  /*border-color: #2e6da4; /*Color de borde*/
+  padding: 0.3em;
+  /*border: 1px solid #DE036D;*/
+
+}
+
+ul.main li {
+
+  position:relative;
+
+  top:0;
+
+  left:0;
+
+}
+
+ul.main li ul {
+
+  border-top:0;
+
+}
+
+ul.main li ul li {
+
+  float:left;
+
+}
+
+ul.main li a {
+
+	height:2.5em;
+	line-height:2.5em;
+	border:0;
+	color:#fff;
+	/*background: #337ab7; /*Color de las opciones*/
+  	border-radius:0.5em;
+
+}
+
+ul.main li ul li a {
+
+  width:15em;
+
+  line-height:2em;
+
+  height:2em;
+
+  text-align:left;
+
+  color:#fff;
+
+  border-top:1px solid #00406d;
+
+  background:#444;
+
+}
+
+ul.main li a:focus {
+	color:#fff;
+	background:#00589a;
+}
+
+ul.main li ul li a:hover {
+  	color:#fff;
+  	background:#00589a;
+  	border-radius:0.5em;
+}
+
+ul.main li:hover a {
+  	color: #fff;
+  	background: #003b65;
+  	border-radius: 0.5em;
+
+}
+
+ul.main li:hover ul li a {color:#fff;}
+
+ul.main li:hover ul li a:hover {color:#fff; background:#00589a;}
+
+ul.main li:hover a:active {background:#00589a;}
+
+ul.main li:hover ul li a:active {color:#fff; background:#00589a;}
+
+
+
+
+
